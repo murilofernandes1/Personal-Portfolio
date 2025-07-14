@@ -1,0 +1,120 @@
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.project {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.project-name
+{
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #A259FF, #FF00CC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    background-color: linear-gradient(90deg, #A259FF, #FF00CC) 1;
+    border-image-slice: 1;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+}
+.project:hover{
+    border-color: #A259FF;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.repository{
+
+    padding-top: 20px;
+    background: linear-gradient(90deg, #A259FF, #FF00CC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.repository:hover{
+    background: linear-gradient(90deg, #00C6FF, #0072FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.proj-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    
+}
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .project {
+    width: 90%;
+    max-width: none;
+    min-width: auto;
+    min-height: auto;
+    max-height: none;
+    margin: 10px 0;
+  }
+
+  .project-name {
+    font-size: 1.5rem;
+  }
+
+  .repository {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-name {
+    font-size: 1.2rem;
+  }
+
+  .repository {
+    font-size: 0.9rem;
+  }
+
+  .project {
+    padding: 10px;
+  }
+}

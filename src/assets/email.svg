@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200.01 144.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_15);
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_15" data-name="Gradiente sem nome 15" x1="0" y1="72.24" x2="200.01" y2="72.24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0c"/>
+      <stop offset="1" stop-color="#a259ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <path class="cls-1" d="M199.43,6.92v-1.73q-.57-.58-1.14-1.15v-1.15h-.57c-.57-.58-.57-1.15-1.14-1.15-.57-.58-1.14-.58-1.14-.58-.57-.58-1.14-.58-1.71-.58s-1.14-.58-1.71-.58H7.41c-.57,0-.57.58-1.14.58s-1.14,0-1.71.58q-.57,0-1.14.58c-.57,0-1.14.58-1.14,1.15h-.57q0,.58-.57,1.15c0,.58-.57.58-.57,1.15s0,1.15-.57,1.73v129.49c0,4.6,3.42,8.06,7.98,8.06h184.05c4.56,0,7.98-3.45,7.98-8.06V8.07c-.01-.57-.58-.57-.58-1.15h0ZM170.37,16.13h0l-70.66,58.7L29.62,16.13h140.75ZM15.95,128.35h0V25.34l79.2,66.18c1.14,1.15,2.85,1.73,4.56,1.73,2.28,0,3.99-.58,5.13-1.73L184.04,25.34v103.02H15.95Z"/>
+  </g>
+</svg>
